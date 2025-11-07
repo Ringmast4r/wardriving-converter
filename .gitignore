@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Test files
+test_*.csv
+test_*.kml
+*_output.csv
+
+# Conversion outputs
+conversion_vault/
+converted/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Demo outputs (keep demo files but not their outputs)
+demo_wardrives/converted/

@@ -1,0 +1,128 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║          UNIVERSAL WARDRIVING CONVERTER - QUICK START GUIDE                 ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+🎯 ONE FILE TO RULE THEM ALL:
+
+   ┌──────────────────┐
+   │   CONVERT.bat    │  ← DRAG ANYTHING ONTO THIS!
+   └──────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 WHAT YOU CAN DRAG:
+
+   ✓ Single file (wigle_data.csv)
+   ✓ Multiple files (select 5, 10, 100+ files)
+   ✓ Entire folder (drag the whole folder)
+   ✓ Folder with subfolders
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 HOW TO USE:
+
+   METHOD 1 - DRAG & DROP (EASIEST):
+   ──────────────────────────────────
+   1. Find your wardriving files/folders
+   2. Drag them onto CONVERT.bat
+   3. Choose your option (separate or merge)
+   4. Done! CSV appears automatically
+
+
+   METHOD 2 - DOUBLE-CLICK (WEB INTERFACE):
+   ─────────────────────────────────────────
+   1. Double-click CONVERT.bat (with no files)
+   2. Web browser opens with drag-drop interface
+   3. Drag files into browser window
+   4. Click Convert
+
+
+   METHOD 3 - TEST WITH DEMO:
+   ───────────────────────────
+   1. Drag the "demo_wardrives" folder onto CONVERT.bat
+   2. Choose option 2 (MERGE)
+   3. See all 5 formats combined into one CSV!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 SUPPORTED FORMATS:
+
+   ✓ WiGLE WiFi (.csv)
+   ✓ Kismet (.csv, .xml, .netxml)
+   ✓ KML/KMZ (.kml, .kmz)
+   ✓ Generic text (.txt)
+   ✓ And 12+ more formats!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 OPTIONS EXPLAINED:
+
+   SEPARATE:  Each file becomes its own CSV
+              Input: 10 files → Output: 10 CSVs
+
+   MERGE:     All files combined into ONE master CSV
+              Input: 10 files → Output: 1 CSV with all data
+
+   RECURSIVE: Include files in subfolders too
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ FEATURES:
+
+   ✓ No size limits (handles 100MB+ files)
+   ✓ 100% offline (no internet needed)
+   ✓ Auto-format detection
+   ✓ Standardized output
+   ✓ Progress tracking
+   ✓ Error handling
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 EXAMPLE SCENARIOS:
+
+   Scenario 1: "I have 1 big KML file"
+   ─────────────────────────────────────
+   → Drag the .kml file onto CONVERT.bat
+   → Get instant CSV conversion
+
+
+   Scenario 2: "I have 50 files from different tools"
+   ───────────────────────────────────────────────────
+   → Select all 50 files
+   → Drag onto CONVERT.bat
+   → Choose "MERGE"
+   → Get 1 master CSV with all 50 files combined
+
+
+   Scenario 3: "I have a folder with subfolders of scans"
+   ────────────────────────────────────────────────────────
+   → Drag the main folder onto CONVERT.bat
+   → Choose option 3 (Recursive + Merge)
+   → Get 1 master CSV from EVERYTHING
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING:
+
+   "Python not found"
+   → Install Python from: https://www.python.org/downloads/
+   → Check "Add Python to PATH" during installation
+
+   "No data extracted"
+   → Check your file isn't empty
+   → Verify it's a real wardriving file
+
+   "Takes a long time"
+   → Normal for large files! Watch the progress messages
+   → 10,000 networks ≈ 2-3 minutes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 THAT'S IT! Just drag and drop. Super simple.
+
+   Questions? Check README.md for more details.
+
+╚══════════════════════════════════════════════════════════════════════════════╝

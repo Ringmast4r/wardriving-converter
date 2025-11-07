@@ -1,0 +1,86 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                   HOW TO USE THE CONVERTER (VISUAL GUIDE)                   ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+✅ CORRECT WAY:
+═══════════════
+
+Step 1: Open TWO File Explorer windows side by side
+
+   [Window 1: kml-converter]          [Window 2: demo_wardrives]
+   ┌─────────────────────┐            ┌─────────────────────┐
+   │ 📁 conversion_vault │            │ 📄 campus_scan...   │
+   │ 📄 CONVERT.bat   ←──┼────────────┼───📁 DRAG THIS!    │
+   │ 📄 README.md        │            │ 📄 downtown_scan... │
+   │ 📄 START_HERE.txt   │            │ 📄 highway_drive... │
+   └─────────────────────┘            └─────────────────────┘
+
+Step 2: DRAG the demo_wardrives folder (or any files)
+
+Step 3: DROP it directly onto CONVERT.bat
+
+Step 4: CMD window opens automatically and asks you to choose
+
+Step 5: Type 2 (for merge) and press Enter
+
+Step 6: Watch it convert!
+
+
+❌ WRONG WAY (This won't work):
+═══════════════════════════════
+
+✗ Double-clicking CONVERT.bat first
+✗ Dragging into an open CMD window
+✗ Opening CMD separately
+
+These won't work because the batch file needs the file path passed as an argument.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+ALTERNATIVE METHODS IF DRAG-DROP ISN'T WORKING:
+═══════════════════════════════════════════════
+
+Method 1: Right-Click "Send To"
+────────────────────────────────
+1. Right-click the folder
+2. Send To → Desktop (create shortcut)
+3. Drag shortcut onto CONVERT.bat
+
+
+Method 2: Command Line (Always Works)
+──────────────────────────────────────
+1. Open CMD in the kml-converter folder
+2. Type:
+   CONVERT.bat "C:\Users\Squir\Desktop\demo_wardrives"
+3. Press Enter
+
+
+Method 3: Create a Desktop Shortcut
+────────────────────────────────────
+1. Right-click CONVERT.bat
+2. Create Shortcut
+3. Drag shortcut to Desktop
+4. Now you can drag folders onto the desktop shortcut!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+QUICK TEST:
+═══════════
+
+Open CMD in kml-converter folder and type:
+
+    CONVERT.bat "C:\Users\Squir\Desktop\demo_wardrives"
+
+Then choose option 2 when asked.
+
+This should work 100%!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
