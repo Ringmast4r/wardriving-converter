@@ -26,10 +26,12 @@ Convert any wardriving file format to standardized CSV. Handles large files that
 
 ## Quick Start
 
-### Windows
+### Windows (Drag & Drop!)
 ```bash
-# Double-click and drag folders into the window
+# 1. Double-click to launch
 Wardriving Converter.bat
+
+# 2. Drag any folder into the CMD window - done!
 ```
 
 ### Linux/Mac
@@ -49,6 +51,7 @@ python3 universal_wardrive_converter.py --folder ./data --merge
 
 ## Features
 
+- **🎯 Drag & Drop** - Just drag folders into CMD window (Windows)
 - **Batch Processing** - Convert 100+ files at once
 - **Auto-Detection** - Automatically identifies format
 - **Merge Option** - Combine all into one master CSV
