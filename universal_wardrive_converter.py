@@ -576,6 +576,7 @@ class WardriveConverter:
             output_folder = os.path.join(folder_path, 'converted')
 
         os.makedirs(output_folder, exist_ok=True)
+        output_norm = os.path.normpath(output_folder)
         print(f"[*] Input folder: {folder_path}")
         print(f"[*] Output folder: {output_folder}")
         print(f"[*] Merge files: {'YES' if merge else 'NO'}")
@@ -589,8 +590,11 @@ class WardriveConverter:
         files_to_convert = []
         if recursive:
             for root, dirs, files in os.walk(folder_path):
-                # Skip output folder
-                if root.startswith(output_folder):
+                # Skip the output folder itself (exact match, not a prefix
+                # match, so sibling folders such as "converted_backup" are
+                # still scanned)
+                root_norm = os.path.normpath(root)
+                if root_norm == output_norm or root_norm.startswith(output_norm + os.sep):
                     continue
                 for file in files:
                     if any(file.lower().endswith(ext) for ext in supported_exts):
